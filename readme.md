@@ -35,3 +35,8 @@ npm uninstall cowsay -g
 # Next
 
 Use Yarn to install the [create-react-app](https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html)
+
+# Resources
+
+- https://code.facebook.com/posts/1840075619545360
+- https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html
