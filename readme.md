@@ -66,29 +66,47 @@ yarnpkg start
 - [ ] What is the folder structure of a new app?
 ```
 hello-world/
-+--.gitignore
-+--package.json
-+--README.md
-+--node_modules/
-+--public/
-    +--index.html
-    +--favicon.ico
-+--src/
-    +--App.css
-    +--App.js
-    +--App.test.js
-    +--index.css
-    +--index.js
-    +--logo.svg
+    |--.gitignore
+    |--package.json
+    |--README.md
+    |--node_modules/
+    |--public/
+        |--index.html
+        |--favicon.ico
+    |--src/
+        |--App.css
+        |--App.js
+        |--App.test.js
+        |--index.css
+        |--index.js
+        |--logo.svg
 ```
-yr
-- [ ] What is Webpack?
-- [ ] What is Babel?
-- [ ] What is esLint?
-- [ ] What is different about yesterday's React app vs today?
 
-Can you create a Counter component in its own file and import it to App.js?
-When you click on the Counter it should increment a number.
+- [ ] What is Webpack?
+```
+- Bundles code
+- Allows usage of import and export
+```
+
+- [ ] What is Babel?
+```
+- Transpiler
+```
+
+- [ ] What is esLint?
+```
+- Code checking - errors
+```
+
+- [ ] What is different about yesterday's React app vs today?
+```
+
+```
+
+# Challenge 
+
+- [ ] Can you create a Counter component in its own file and import it to App.js?
+- [ ] When you click on the Counter it should increment a number.
 
 # Resources
 
