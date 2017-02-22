@@ -11,35 +11,77 @@ Most importantly it has a cute cat.
 Install Yarn
 
 https://yarnpkg.com/en/
+```
+brew update
+brew install yarn
+```
 
 ## Can you find the npm alternatives for the following
 
 ```
 npm init
+
+yarn init
 ```
 
 ```
 npm install --save express
+
+yarn add express
 ```
 
 ```
 npm run start
+
+yarn run start
 ```
 
 ```
 npm install cowsay --global
+
+yarn global add cowsay
 ```
 
 ```
 npm uninstall cowsay -g
+
+yarn remove cowsay
 ```
 
 # Next
 
 Use Yarn to install the [create-react-app](https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html)
+```
+yarn global add create-react-app
+```
 
 - [ ] How do you get the app started?
+```
+create-react-app <app name>
+cd <app name>
+yarnpkg start
+// starts server @ localhost:3000
+```
+
 - [ ] What is the folder structure of a new app?
+```
+hello-world/
++--.gitignore
++--package.json
++--README.md
++--node_modules/
++--public/
+    +--index.html
+    +--favicon.ico
++--src/
+    +--App.css
+    +--App.js
+    +--App.test.js
+    +--index.css
+    +--index.js
+    +--logo.svg
+```
+yr
 - [ ] What is Webpack?
 - [ ] What is Babel?
 - [ ] What is esLint?
